@@ -11,12 +11,39 @@
     {
       "id": "20f8",
       "name": "Juana Altenwerth"
-    },
-    {
-      "id": "e451",
-      "name": "Lynn Kuhic"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "title": "Prashant albums",
+      "userId": 1,
+      "id": "123"
+    },
+    {
+      "id": "7fd3",
+      "title": "Electronic Granite Shoes",
+      "userId": "f747"
+    },
+    {
+      "id": "1c61",
+      "title": "Recycled Rubber Sausages",
+      "userId": "20f8"
+    },
+    {
+      "id": "1f19",
+      "title": "Intelligent Cotton Chair",
+      "userId": "f747"
+    },
+    {
+      "id": "f479",
+      "title": "Unbranded Granite Tuna",
+      "userId": "f747"
+    },
+    {
+      "id": "6020",
+      "title": "Gorgeous Metal Chair",
+      "userId": "f747"
+    }
+  ],
   "photos": []
 }
