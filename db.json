@@ -15,35 +15,31 @@
   ],
   "albums": [
     {
-      "title": "Prashant albums",
-      "userId": 1,
-      "id": "123"
-    },
-    {
-      "id": "7fd3",
-      "title": "Electronic Granite Shoes",
-      "userId": "f747"
-    },
-    {
-      "id": "1c61",
-      "title": "Recycled Rubber Sausages",
-      "userId": "20f8"
-    },
-    {
-      "id": "1f19",
-      "title": "Intelligent Cotton Chair",
-      "userId": "f747"
-    },
-    {
-      "id": "f479",
-      "title": "Unbranded Granite Tuna",
-      "userId": "f747"
-    },
-    {
       "id": "6020",
       "title": "Gorgeous Metal Chair",
       "userId": "f747"
+    },
+    {
+      "id": "d02e",
+      "title": "Incredible Frozen Shoes",
+      "userId": "1"
+    },
+    {
+      "id": "2a52",
+      "title": "Practical Cotton Table",
+      "userId": "f747"
+    },
+    {
+      "id": "8153",
+      "title": "Incredible Plastic Sausages",
+      "userId": "20f8"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "50fa",
+      "albumId": "6020",
+      "url": "https://loremflickr.com/150/150/abstract?lock=41915"
+    }
+  ]
 }

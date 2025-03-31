@@ -1,11 +1,10 @@
 import { useFetchAlbumsQuery, useCreateAlbumMutation } from "../store";
 import Shimmer from "./Shimmer";
-import ExpandablePanel from "./ExpandablePanel";
 import Button from "./Button";
 import AlbumsListItems from "./AlbumsListItems";
 
 const AlbumsList = ({ user }) => {
-    const { data, error, isLoading } = useFetchAlbumsQuery(user);
+    const { data, error, isFetching } = useFetchAlbumsQuery(user);
     // const result = useFetchAlbumsQuery(user);
     const [createAlbum, results] = useCreateAlbumMutation(user);
 
@@ -15,7 +14,7 @@ const AlbumsList = ({ user }) => {
 
     // console.log(result);
     let content;
-    if (isLoading) {
+    if (isFetching) {
         content = <Shimmer times={3} className="h-10 w-full" />;
     } else if (error) {
         content = <div>{error.message}</div>;
